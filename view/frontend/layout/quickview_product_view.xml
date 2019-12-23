@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ /************************************************************
+ * *
+ *  * Copyright © Boolfly. All rights reserved.
+ *  * See COPYING.txt for license details.
+ *  *
+ *  * @author    info@boolfly.com
+ * *  @project   Quick View
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="catalog_product_view"/>
+    <body>
+        <container name="quick.view.content" htmlClass="quick-view-popup" htmlId="quick-view-content" htmlTag="div"/>
+        <move element="page.messages" destination="quick.view.content" before="-"/>
+        <move element="columns" destination="quick.view.content" after="-"/>
+        <referenceContainer name="page.wrapper" remove="true"/>
+        <referenceContainer name="after.body.start" remove="true"/>
+    </body>
+</page>

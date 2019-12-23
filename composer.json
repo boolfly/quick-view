@@ -1,0 +1,22 @@
+{
+  "name": "boolfly/module-quick-view",
+  "description": "Quick View module",
+  "require": {
+    "php": "~7.1.3||~7.2.0||~7.3.0",
+    "boolfly/module-base": "100.0.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Boolfly\\QuickView\\": ""
+    }
+  },
+  "version": "100.0.0"
+}

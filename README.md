@@ -1,2 +1,2 @@
-# quick-view
-Quick View extension for Magento 2
+# Quick View
+
